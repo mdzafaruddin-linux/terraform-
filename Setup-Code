@@ -1,0 +1,16 @@
+File Types:
+1:main.tf – main configuration
+2:Variables.tf – define variables
+3:terraform.tfvars – input values
+4:outputs.tf – outputs of execution
+
+Command	Purpose
+terraform init	Initializes the working dir
+terraform plan	Shows what will be created
+terraform apply	Applies the changes
+terraform destroy	Destroys the resources
+terraform fmt	Formats code
+terraform validate	Checks for syntax issues
+terraform init        # Initializes Terraform
+terraform plan        # Shows what will be created
+terraform apply       # Applies the plan and creates resources
